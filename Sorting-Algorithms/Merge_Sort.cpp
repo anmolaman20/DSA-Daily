@@ -4,8 +4,6 @@
 //Not Online
 //Divide and Conquer
 
-
-
 #include<bits/stdc++.h>
 using namespace std;
 void merge(vector<int> &vec,int low,int mid, int high){
