@@ -1,0 +1,37 @@
+StL Sort uses 
+
+1. Insertion 
+2. Heap Sort 
+3. Quick Sort
+
+
+
+//Increasing Order
+
+
+sort(vec.begin(),vec.end());
+
+sort(begin(vec),end(vec));
+
+
+//Decreasing Order
+
+
+sort(vec.begin(),vec.end(), greater<int>());
+
+
+sort(begin(vec),end(vec), greater<int>());
+
+
+//custom sort
+
+sort(vec.begin(),vec.end(),comparator());
+
+
+// define comparator -> there are many ways to define comparator
+
+struct comparator{
+    bool operator(int x, int y){
+        return x<y;
+    }
+}
