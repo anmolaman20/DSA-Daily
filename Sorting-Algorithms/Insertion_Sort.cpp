@@ -1,4 +1,4 @@
-//Not - in Place
+//In Place
 //Stable
 //O(n) -> Best, O(n^2) -> Avg
 //Online
